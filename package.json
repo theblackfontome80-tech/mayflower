@@ -1,0 +1,12 @@
+{
+  "name": "fleuriste-may-flower",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "images": "node tools/optimize-images.mjs",
+    "serve": "npx --yes serve -l 4321 ."
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
